@@ -1,0 +1,73 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Config",
+      "type": "gui",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "config"
+    },
+    {
+      "name": "GuardiansOfAngels",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "guardians_of_angels"
+    },
+    {
+      "name": "ConfigguiCommandExecuted",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "configgui_command_executed",
+      "metadata": {
+        "dependencies": []
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "nirvo_guardiansofangels",
+      "files": [
+        "niviro-the-guardian-of-angels-_original-mix__mpgun.com_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.testmod.guardians_of_angels": "NIRVO: Guardians of Angels",
+      "item.testmod.guardians_of_angels.desc": "NIRVO: Guardians of Angels",
+      "subtitles.nirvo_guardiansofangels": ""
+    }
+  },
+  "workspaceSettings": {
+    "modid": "testmod",
+    "modName": "testmod",
+    "version": "1.0.0",
+    "author": "Atomiz",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "just_enough_items"
+    ],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.testmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547418
+}

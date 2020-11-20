@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="testmod"
+version="1.0.0"
+displayName="testmod"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://mcreator.net"
+authors="Atomiz"
+
+[[dependencies.testmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+[[dependencies.testmod]]
+    modId="just_enough_items"
+    mandatory=false
+    ordering="NONE"
+    side="BOTH"
+
